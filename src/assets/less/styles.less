@@ -1,0 +1,77 @@
+/*!------------------
+Style Sheet for Mathis & Sons AC and Heating Splash Page
+Author: Orlando Morales
+Last Date Modiified: 01/27/2017
+Version: 2.4.x
+-------------------*/
+@import "../plugins/bootstrap/css/bootstrap.css";
+@import "../css/app.css";
+@import "../css/blocks.css";
+/*@import "../css/one.style.css";*/
+@import "../css/header-v9.css";
+@import "../css/footer-v7.css";
+@import "../plugins/animate.css";
+/*@import "../assets/plugins/line-icons/line-icons.css";*/
+@import "../font-awesome/css/font-awesome.min.css";
+/*@import "../assets/plugins/line-icons-pro/styles.css";*/
+/*@import "assets/css/plugins/pace-flash.css";
+/*@import "../assets/plugins/owl-carousel2/assets/owl.carousel.css";*/
+/*@import "../assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css";*/
+/*@import "../assets/plugins/cube-portfolio/cubeportfolio/custom/custom-cubeportfolio.css";*/
+@import "../plugins/hover-effects/css/custom-hover-effects.css";
+@import "../css/shiping.style.css";
+/*------------------
+Contents
+-Variables
+-Mixins
+-Global Styles
+-Header Styles
+-Footer Styles
+-------------------*/
+/*----- Variables -----*/	
+/*----- Mixins -----*/
+
+/*----- Global Styles -----*/
+    @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity: 1;}
+    }
+
+    body {
+        animation-name: fadeIn;
+        animation-duration: 2s;
+    }
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: 'Arsenal', sans-serif;
+    }
+    .background {
+        background-image: url('../img/work.jpeg') !important;
+    }
+    .backstretch {
+        display: none;
+    }
+    #intro {
+        margin-top: 100px;
+    }
+    .intro-section-info, #mobile-info {
+        background-color: rgba(255,255,255,0.5);
+        padding: 20px;
+    }
+    .intro-section-info {
+        text-align: right;
+    }
+    .intro-section-info h2,
+    .intro-section-info h3 {
+        color: blue;
+    }
+    .intro-section-info p {
+        color: red;
+    }
+    #mobile-info h2,#mobile-info h3,#mobile-info p {
+        color: blue;
+    }
+    @media (min-width:768px) {
+        #mobile-info {
+            display: none;
+        }
+    }

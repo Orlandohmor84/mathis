@@ -13,7 +13,7 @@
 
 
 	<!-- Web Fonts -->
-	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:400,300,600,700&amp;subset=cyrillic,latin">
+	<link href="https://fonts.googleapis.com/css?family=Arsenal" rel="stylesheet">
 
 	<!-- CSS Global Compulsory -->
 	<link rel="stylesheet" href="../assets/plugins/bootstrap/css/bootstrap.min.css">
@@ -54,50 +54,19 @@
 			<div class="topbar">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-3 col-xs-4 no-side-padding">
-							<a href="#intro" class="logo"><img src="assets/img/logo-dark.png" alt="Logo"></a>
+						<div class="col-xs-4 no-side-padding">
+							<a href="#intro" class="logo"><img src="assets/img/mathis_logo2.png" alt="Logo"></a>
 						</div>
 
-						<div class="col-sm-9 col-xs-8">
-							<div class="row">
-								<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 topbar-block first">
-									<div class="topbar-block-in">
-										<ul class="list-unstyled">
-											<li class="first-item"><span aria-hidden="true" class="icon-screen-smartphone icon"></span> Call Us</li>
-											<li class="second-item">+469 548 521</li>
-										</ul>
-									</div>
-								</div>
-
-								<div class="col-lg-3 hidden-md hidden-sm hidden-xs topbar-block">
-									<div class="topbar-block-in">
-										<ul class="list-unstyled">
-											<li class="first-item"><span aria-hidden="true" class="icon-clock icon"></span> Opening time</li>
-											<li class="second-item">Mon-Sat: 08.00 - 18.00</li>
-										</ul>
-									</div>
-								</div>
-
-								<div class="col-lg-3 col-md-4 col-sm-4 col-xs-6 topbar-block">
-									<div class="topbar-block-in">
-										<ul class="list-unstyled">
-											<li class="first-item"><span aria-hidden="true" class="icon-envelope icon"></span> Email us</li>
-											<li class="second-item">market@info.com</li>
-										</ul>
-									</div>
-								</div>
-
-								<div class="col-lg-3 col-md-4 col-sm-4 hidden-xs topbar-block">
+						<div class="col-xs-8 hidden-xs topbar-block pull-right" style="text-align: right;">
 									<div class="topbar-social clearfix">
 										<ul class="list-unstyled">
-											<li><a href="#" class="rounded-x"><i class="fa fa-twitter"></i></a></li>
-											<li><a href="#" class="rounded-x"><i class="fa fa-pinterest"></i></a></li>
 											<li class="fb"><a href="#" class="rounded-x"><i class="fa fa-facebook"></i></a></li>
 										</ul>
 									</div>
 								</div>
-							</div>
-						</div>
+
+						
 					</div>
 				</div>
 			</div>
@@ -109,58 +78,48 @@
 
 	<!-- Intro Section -->
 	<section id="intro" class="intro-section">
-		<div class="fullscreen-static-image fullheight">
+		<div class="fullscreen-static-image fullheight background">
 				<!-- Promo Content BEGIN -->
 				<div class="container valign__middle">
 					<div class="row">
 						<div class="col-md-5 col-sm-6 text-center">
+							<div id="mobile-info">
+								<h2>Free A/C Estimate</h2>
+								<h3>Let Us Come To You</h3>
+								<p>Submit your info now or give us a call for a <strong>free air and heating evaluation</strong> from a licensed proffesional.</p>
+								<a href="tel:+14074402244" class="btn-u btn-u-lg btn-u-default btn-u-upper rounded">Call Now</a>
+								<a href="http://mathisandsonsairandheating.com/" class="btn-u btn-u-lg btn-u-default btn-u-upper rounded" target="_blank">View Website</a>
+								<p><small>Lic. CAC1818734</small></p>
+							</div>
 							<form class="shipping-form">
-								<h3>Calculate Shiping Cost</h3>
-								<div class="form-group g-mb-20">
-									<input type="text" name="slocation" class="form-control rounded g-mb-20" placeholder="Start Location">
-									<input type="text" name="elocation" class="form-control rounded g-mb-20" placeholder="End Location">
+								<h3>Free A/C Estimate</h3>
+								<div class="form-group g-mb-20 wow flipInY">
+									<input type="text" name="slocation" class="form-control rounded g-mb-20" placeholder="First Name">
+									<input type="text" name="elocation" class="form-control rounded g-mb-20" placeholder="Last Name">
 									<select class="form-control rounded">
-										<option>Cargo Type</option>
-										<option>2</option>
-										<option>3</option>
+										<option>Type</option>
+										<option>Residential</option>
+										<option>Commercial</option>
 									</select>
 								</div>
 
 								<div class="form-group g-mb-20">
-									<div class="row">
-										<div class="col-sm-4 g-xs-mb-20">
-											<input type="text" name="height" class="form-control rounded" placeholder="Height">
-										</div>
-
-										<div class="col-sm-4 g-xs-mb-20">
-											<input type="text" name="width" class="form-control rounded" placeholder="Width">
-										</div>
-
-										<div class="col-sm-4 g-xs-mb-20">
-											<input type="text" name="length" class="form-control rounded" placeholder="Length">
-										</div>
-									</div>
+									<input type="text" name="slocation" class="form-control rounded g-mb-20" placeholder="Phone Number">
+									<input type="email" name="elocation" class="form-control rounded g-mb-20" placeholder="Email Address">
 								</div>
+								
 
-								<div class="form-group g-mb-20">
-									<div class="row">
-										<div class="col-sm-6 g-xs-mb-20">
-											<input type="name" name="name" class="form-control rounded" placeholder="Name">
-										</div>
-
-										<div class="col-sm-6 g-xs-mb-20">
-											<input type="email" name="email" class="form-control rounded" placeholder="Email">
-										</div>
-									</div>
-								</div>
-								<button type="submit" class="btn-u btn-u-lg btn-u-default btn-u-upper rounded">Calculate</button>
+								
+								<button type="submit" class="btn-u btn-u-lg btn-u-default btn-u-upper rounded">Submit</button>
 							</form>
 						</div>
 						<div class="col-md-7 col-sm-6 intro-section-info">
-							<h2>Packaging <br> &amp; Shiping</h2>
-							<h3>Delivering anything to anywhere</h3>
-							<p>Maecenas lacus magna, pretium in congue a, pharetra at lacus. Nulla neque justo, sodales<br> vitae dui non, imperdiet luctus libero.</p>
-							<a href="#" class="btn-u btn-u-lg btn-u-default btn-u-upper rounded">Learn More</a>
+							<h2>Free<br>Estimate</h2>
+							<h3>Let Us Come To You</h3>
+							<p>Submit your info now or give us a call for a <strong>free air and heating evaluation</strong> from a licensed proffesional.</p>
+							<a href="tel:+14074402244" class="btn-u btn-u-lg btn-u-default btn-u-upper rounded">Call Now</a>
+							<a href="http://mathisandsonsairandheating.com/" class="btn-u btn-u-lg btn-u-default btn-u-upper rounded" target="_blank">View Website</a>
+							<p><small>Lic. CAC1818734</small></p>
 						</div>
 					</div>
 				</div>
@@ -176,20 +135,19 @@
 		<div class="container-fluid no-padding">
 			<div class="shiping-types">
 				<div class="g-heading-v11 text-center g-mb-70">
-					<h2>Types of Shiping</h2>
-					<p>Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.</p>
+					<h2>Our services</h2>
+					<p>We are a small but yet productive and expansive business here in Central Florida! We service Air Conditioning units in Orlando, Altamonte, Lake Mary, Sanford. We are EXTREMELY personable and want to help you with all your Air Conditioning needs.</p>
 				</div>
 
 				<div class="shiping-types-list">
 					<div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12 no-padding">
 						<div class="shiping-type">
 							<div class="shiping-type-img">
-								<img class="img-responsive" src="assets/img-temp/type1.png" alt="">
+								<img class="img-responsive" src="assets/img/woman-01.png" alt="">
 							</div>
 
 							<div class="shiping-type-text">
-								<h3><a href="#"><strong>Small</strong> Objects</a></h3>
-								<p class="default-p">Shiping &amp; package</p>
+								<h3><a href="#"><strong>A/C</strong> Service</a></h3>
 								<p class="onhover-p">Maecenas tempus, tellus eget condimentum rhoncus.</p>
 							</div>
 						</div>
@@ -198,12 +156,11 @@
 					<div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12 no-padding">
 						<div class="shiping-type">
 							<div class="shiping-type-img">
-								<img class="img-responsive" src="assets/img-temp/type2.png" alt="">
+								<img class="img-responsive" src="assets/img/tools-01.png" alt="">
 							</div>
 
 							<div class="shiping-type-text">
-								<h3><a href="#"><strong>Medium</strong> Objects</a></h3>
-								<p class="default-p">Shiping &amp; package</p>
+								<h3><a href="#"><strong>A/C</strong> Repair</a></h3>
 								<p class="onhover-p">Maecenas tempus, tellus eget condimentum rhoncus.</p>
 							</div>
 						</div>
@@ -212,12 +169,11 @@
 					<div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12 no-padding">
 						<div class="shiping-type">
 							<div class="shiping-type-img">
-								<img class="img-responsive" src="assets/img-temp/type3.png" alt="">
+								<img class="img-responsive" src="assets/img/ac-group-01.png" alt="">
 							</div>
 
 							<div class="shiping-type-text">
-							<h3><a href="#"><strong>Large</strong> Objects</a></h3>
-								<p class="default-p">Shiping &amp; package</p>
+							<h3><a href="#"><strong>A/C</strong> Installation</a></h3>
 								<p class="onhover-p">Maecenas tempus, tellus eget condimentum rhoncus.</p>
 							</div>
 						</div>
@@ -226,12 +182,11 @@
 					<div class="col-md-3 col-sm-6 col-xs-6 col-2xs-12 no-padding">
 						<div class="shiping-type">
 							<div class="shiping-type-img">
-								<img class="img-responsive" src="assets/img-temp/type4.png" alt="">
+								<img class="img-responsive" src="assets/img/maintenance-01.jpg" alt="">
 							</div>
 
 							<div class="shiping-type-text">
-								<h3><a href="#"><strong>XXXXL</strong> Objects</a></h3>
-								<p class="default-p">Shiping &amp; package</p>
+								<h3><a href="#"><strong>A/C</strong> Maintenance</a></h3>
 								<p class="onhover-p">Maecenas tempus, tellus eget condimentum rhoncus.</p>
 							</div>
 						</div>
@@ -252,18 +207,14 @@
 				<div class="row">
 					<div class="col-md-6 col-sm-6 col-xs-3">
 						<div class="cr-left">
-							<p>&copy; 2016 All right reserved. Development by <a href="https://htmlstream.com" target="_blank">HTML Stream</a></p>
+							<p>&copy; 2017 All right reserved. Development by <a href="http://iBuildWeb.Site" target="_blank">iBuildWeb.Site</a></p>
 						</div>
 					</div>
 
 					<div class="col-md-6 col-sm-6 col-xs-9">
 						<div class="cr-right">
 							<ul class="list-unstyled list-inline cr-list">
-								<li><a href="#" class="rounded"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#" class="rounded"><i class="fa fa-pinterest"></i></a></li>
 								<li><a href="#" class="fb rounded"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#" class="rounded"><i class="fa fa-instagram"></i></a></li>
-								<li><a href="#" class="rounded"><i class="fa fa-linkedin"></i></a></li>
 							</ul>
 						</div>
 					</div>
@@ -281,6 +232,7 @@
 	<!-- JS Implementing Plugins -->
 	<script src="../assets/plugins/smoothScroll.js"></script>
 	<script src="../assets/plugins/jquery.easing.min.js"></script>
+	<script src="../assets/plugins/wow-animations/js/wow.min.js"></script>
 	<script src="../assets/plugins/pace/pace.min.js"></script>
 	<script src="../assets/plugins/counter/waypoints.min.js"></script>
 	<script src="../assets/plugins/counter/jquery.counterup.min.js"></script>
@@ -308,6 +260,7 @@
 			OwlCarousel.initOwlCarousel();
 			CirclesMaster.initCirclesMaster();
 			ContactForm.initContactForm();
+			new WOW().init();
 		});
 	</script>
 	<!--[if lt IE 10]>

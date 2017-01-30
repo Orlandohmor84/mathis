@@ -19,9 +19,9 @@ gulp.task('watch', ['default'], function() {
 	gulp.watch(SCRIPTS_PATH, ['scripts']);
 	gulp.watch(LESS_PATH, ['styles']);
 	gulp.watch(IMAGES_PATH, ['images']);
-	gulp.watch(SRC_PATH, ['index']);
+	gulp.watch(SRC_PATH, ['html']);
 });
 
-gulp.task('default', ['styles', 'scripts', 'images', 'index'], function() {
+gulp.task('default', ['styles', 'scripts', 'images', 'html'], function() {
 	console.log('starting default task');
 });

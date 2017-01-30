@@ -32,6 +32,7 @@ Contents
 /*----- Mixins -----*/
 
 /*----- Global Styles -----*/
+
     @keyframes fadeIn {
         from {opacity: 0;}
         to {opacity: 1;}
@@ -44,6 +45,9 @@ Contents
     body, h1, h2, h3, h4, h5, h6 {
         font-family: 'Arsenal', sans-serif;
     }
+    h1,h2,h3,h4,h5,h6 {
+        margin-bottom: 0;
+    }
     .background {
         background-image: url('../img/work.jpeg') !important;
     }
@@ -52,9 +56,13 @@ Contents
     }
     #intro {
         margin-top: 100px;
+        line-height: 0;
+    }
+    #intro h2 {
+        text-transform: uppercase;
     }
     .intro-section-info, #mobile-info {
-        background-color: rgba(255,255,255,0.5);
+        background-color: rgba(255,255,255,0.7);
         padding: 20px;
     }
     .intro-section-info {
@@ -75,3 +83,8 @@ Contents
             display: none;
         }
     }
+/*----- Header Styles -----*/
+
+.no-side-padding {
+    height: 50px;
+}
